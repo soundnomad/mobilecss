@@ -1,0 +1,19 @@
+/* Flexbox nav bar */
+.flex-container {
+    display: -webkit-flex;
+    display: flex;
+    flex-wrap: wrap;
+    width: auto;
+    height: auto;
+    float: none;
+    background-color: #ffffff;
+}
+.flex-item {
+    width: 120px;
+    height: 120px;
+    padding: 5px;
+    margin: 10px;
+}
+.flex-item a:hover {
+     background: #C93;
+}
